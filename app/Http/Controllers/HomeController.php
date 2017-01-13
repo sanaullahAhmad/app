@@ -26,4 +26,7 @@ class HomeController extends Controller
         $posts = \DB::table('posts')->get();
         return view('home',["posts"=>$posts]);
     }
+
+
+
 }
